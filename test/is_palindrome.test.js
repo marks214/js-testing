@@ -38,7 +38,7 @@ describe('isPalindrome()', () => {
 
   test('palindrome with non-alphanumeric characters (spaces, punctuation, etc.) works', () => {
     // Arrange
-    const text = '@, 890 !   098..(-)@';
+    const text = '@, 890 ! ::;?  098..(-)@';
     // Act
     const result = isPalindrome(text);
     // Assert
