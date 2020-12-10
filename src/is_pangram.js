@@ -1,6 +1,6 @@
 const isPangram = function(text) {
-  let require = 'abcdefghijklmnopqrstuvwxyz'
-  let str = text.toLowerCase();
+  const require = 'abcdefghijklmnopqrstuvwxyz'
+  const str = text.toLowerCase();
   let count = require.length
 
   for(let i = 0; i < str.length; i++) {
